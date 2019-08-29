@@ -1,0 +1,65 @@
+body{
+	padding: 5rem 10rem 5rem 10rem;
+	background-color: #c0c0c0;
+	display: flex;
+	justify-content:center;
+	font-family: sans-serif;
+}
+.container{
+	padding: 5rem;
+	background-color: #ffffff;
+	box-shadow: -1px -1px 10px 10px #909090;
+
+}
+section{
+	margin: 2rem 0;
+}
+#header{
+	display: flex;
+	Justify-content:center;
+	font-family: tahoma, sans-serif;
+}
+header h1, header h4, header hr{
+	margin:0 auto;
+	text-align: center;
+}
+header hr{
+	margin: 0.8rem 0;
+}
+.sum img{
+	border-radius: 100%;
+}
+
+#summary {
+	display: flex;
+	justify-content:center;
+	text-align: center;
+}
+#summary div{
+	margin: 0 auto;
+}
+#summary h2, #work-exp h2, #qualif h2, #skills h2, #tech-skills h2, #hobbies h2{
+	color:blue;
+	text-align: left;
+	font-family: tahoma, serif;
+	font-size: 1rem;
+}
+#work-exp{
+	display: 
+}
+#qualif span::before{
+	content: '_ ';
+	padding:10%;
+	position: relative;
+	color: #ffffff;
+	text-align:  right;
+}
+#qualif h2{
+	text-transform: uppercase;
+}
+table{
+	border:0;
+}
+table td:first-child{
+	font-weight: bold;
+}
