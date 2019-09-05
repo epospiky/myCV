@@ -88,18 +88,23 @@
 			<p>I enjoy programming, travelling, reading, playing chess and computer game</p>
 
 		</section>
-<<<<<<< HEAD
-				<section id="modal">
-			<form class="cont-form">
-				<h2>I'd Love to hear from you</h2>
-				<p id="notif"></p>
-				<div><input  type="email"id="email" placeholder="Email"></div>
-				<div><input type="text" id="subj" Placeholder="Subject"></div>
-				<div><textarea id="msg" placeholder="Message"></textarea></div>
-				<div><input type="submit" id="btn" Value="submit" class="btn"> </div>
-			</form>
+
+		<section id="modal">
+			<div class="modal-container" id="modal-opened" area-hidden="true">
+				<form class="cont-form modal">
+					<h2>I'd Love to hear from you</h2>
+					<p id="notif"></p>
+					<div><input  type="email"id="email" placeholder="Email"></div>
+					<div><input type="text" id="subj" Placeholder="Subject"></div>
+					<div><textarea id="msg" placeholder="Message"></textarea></div>
+					<div><input type="submit" id="btn" Value="submit" class="btn"> </div>
+					<a href="#modal-closed" class="link-2"></a>
+				</form>
+			</div>
 		</section>
+		
 	</div>
+	<a href="#modal-opened" class="link-1" id="modal-closed">Contact Me</a>
 <script type="text/javascript">
 var email = document.getElementById('email'); 
 var subject = document.getElementById('subj'),
