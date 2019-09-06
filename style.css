@@ -6,11 +6,50 @@ body{
 	font-family: sans-serif;
 }
 @media only screen and (max-width:600px){
-body{padding:3px 2px; } .container{padding:3px} section {margin:.5rem 0}
-	#modal form {width:98%; padding:4px;} .modal{width:98%; height:auto}
-	 
-	
-	
+
+body{padding:1rem 4rem;} 
+.container{
+	width:90%;
+	text-align: left;
+	padding:0;
+	margin: 0;
+} 
+hr{
+	width: 300px;
+}
+section {display: block;
+	margin:.1rem .1rem;}
+	#modal form {width:98%; padding:4px;} 
+	.modal{width:100%; 
+		height:auto;
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	 .modal-container{
+	 	display: block;
+	 }
+	img{max-width: 90%;
+		height: auto}
+		p, h1,h2,h3,h4,h5,h6,div{
+			text-align: left;
+		}
+		#modal form{
+			width: 90%
+		}
+	section, #modal, #header, #summary, #work-exp, #qualif, #skills, #tech-skills, #hobbies, #modal{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		display: block;
+		text-align: left;
+		
+	}
+	section div{
+		display: block;
+		width: 100%;
+	}
+
 	
 }
 	
