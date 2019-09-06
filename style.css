@@ -5,6 +5,19 @@ body{
 	justify-content:center;
 	font-family: sans-serif;
 }
+@media only screen and (max-width:600px){
+body{padding:3px 2px; } .container{padding:3px} section {margin:.5rem 0}
+	#modal form {width:98%; padding:4px;} .modal{width:98%; height:auto}
+	 
+	
+	
+	
+}
+	
+	
+
+
+
 a,
 a:link {
   font-family: inherit;
